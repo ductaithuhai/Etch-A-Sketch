@@ -5,7 +5,34 @@ html{
 body{
   background-color: #4cbfa6;
 }
+.palette {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+/* Define the style for each color box */
+.color {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Define the style for the selected color box */
+.selected {
+  border: 3px solid black;
+}
+
+/* Define the style for the display of the selected color */
+#display {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
 .tit{
   text-align: center;
   font-size: 40px;

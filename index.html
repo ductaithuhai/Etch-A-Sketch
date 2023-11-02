@@ -9,10 +9,14 @@
 <body>
   <div class="tit">Draw Some Funny</div>
   <ul class="nav">
-    <li><a class='chooseColor'>Choose Color</a></li>
+    <li>  <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+      <p><input type="submit" value="Submit"></p></li>   
     <li><a class='chooseArea'>Choose Area</a></li>
     <li><a class='erase'>Erase</a></li>
   </ul>
+  <div id="display">Select a color</div>
+  <div id='box'></div>
   <div id="container"></div>
 
 
