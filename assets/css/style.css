@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: cambai;
-  src: url(https://github.com/ductaithuhai/Etch-A-Sketch/blob/main/assets/font/cambai-minimalist-font/CambaiMinimalist-3zeJ6.ttf);
+  src: url(../font/cambai-minimalist-font/CambaiMinimalist-3zeJ6.ttf);
 }
 
 html{
