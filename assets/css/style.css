@@ -1,9 +1,19 @@
+@font-face {
+  font-family: nexus;
+  src: url(/assets/font/nexus-font/Nexus-ZV54m.ttf);
+}
+
+@font-face {
+  font-family: cambai;
+  src: url(/assets/font/cambai-minimalist-font/CambaiMinimalist-3zeJ6.ttf);
+}
+
 html{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: cambai;
 }
 
 body{
-  background-color: #4cbfa6;
+  background-color: #EDEAE0;
 }
 .palette {
   width: 300px;
@@ -35,7 +45,7 @@ body{
 }
 .tit{
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
   margin-bottom: 50px;
 }
 
@@ -54,5 +64,17 @@ body{
   margin: auto;
   width: 640px;
   height: 640px;
+}
+
+.favcolor,
+.size{
+  font-size: 20px;
+}
+
+.nav li{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
 }
 

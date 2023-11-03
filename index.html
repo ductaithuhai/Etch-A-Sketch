@@ -9,13 +9,19 @@
 <body>
   <div class="tit">Draw Some Funny</div>
   <ul class="nav">
-    <li>  <label for="favcolor">Select your favorite color:</label>
+    <li><a class="favcolor">Color:</a>
       <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-      <p><input type="submit" value="Submit"></p></li>   
-    <li><a class='chooseArea'>Choose Area</a></li>
-    <li><a class='erase'>Erase</a></li>
+      <button id="pickColor">Submit</button></li>   
+    <li> <a class="size">Size:</a>
+      <select name="area" id="size">
+        <option value="256">16x16</option>
+        <option value="1024">32x32</option>
+        <option value="4096">64x64</option>
+      </select>
+      <button id="pickSize">Submit</button></li>  
+    </li>
+    <li><button id="erase">Erase</button></li>
   </ul>
-  <div id="display">Select a color</div>
   <div id='box'></div>
   <div id="container"></div>
 
